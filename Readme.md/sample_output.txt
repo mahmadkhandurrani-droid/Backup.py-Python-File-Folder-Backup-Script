@@ -1,8 +1,0 @@
-=== Backup Script ===
-Enter the path of the folder to back up: C:\Users\Maryam\Documents\TestFolder
-Enter the destination folder for backup: D:\Backups
-Backed up: file1.txt
-Backed up: file2.txt
-Backed up folder: Images
-
-Backup completed successfully at 'D:\Backups\Backup_2026-03-22_16-00-00'
