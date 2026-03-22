@@ -1,0 +1,7 @@
+Skills Demonstrated
+- Python file handling (`os`, `shutil`)
+- CLI application design
+- Logging and error handling
+- Modular function design
+- Timestamped folder creation
+- 
