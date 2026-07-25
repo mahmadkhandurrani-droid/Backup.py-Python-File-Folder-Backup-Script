@@ -1,26 +1,65 @@
-# Backup.py – Python File & Folder Backup Script
+Smart File Organizer Pro
 
-## 📝 Project Description
-`Backup.py` is a Python automation tool that allows you to safely back up files and folders from a source directory to a destination directory.  
-It creates timestamped backup folders, logs all operations, and handles errors gracefully. This project demonstrates file handling, folder manipulation, logging, and CLI development.
+Overview
 
-## ⚙️ Features
-- Backup all files and subfolders from a source folder
-- Date-stamped backup folders to prevent overwriting
-- Logging system (log.txt) records every file backed up and errors
-- Error handling for missing files/folders or permission issues
-- Modular functions for cleaner and reusable code
-- Interactive CLI to select source and destination folders
+Smart File Organizer Pro is a modular Python automation project that automatically organizes files into categorized folders based on their file extensions. The project follows software engineering best practices, including object-oriented programming, composition, modular architecture, JSON configuration, logging, exception handling, and automated reporting.
 
-## 🛠 Skills Demonstrated
-See [skills_demonstrated.txt](skills_demonstrated.txt)
+Features
 
-## 📂 Sample Output
-See [sample_output.txt](sample_output.txt)
+- Automatically scans a source folder
+- Organizes files into categories based on extensions
+- Uses a configurable "config.json" file
+- Creates destination folders automatically
+- Prevents duplicate filenames
+- Creates backups before moving files
+- Generates a CSV report of all processed files
+- Logs successful operations and errors
+- Built with "pathlib" for modern file handling
+- Modular and maintainable project structure
 
-## 🚀 How to Use
-1. Clone the repository or download `Backup.py`.
-2. Open terminal / command prompt in the project folder.
-3. Run the script:
-```bash
-python Backup.py
+Project Structure
+
+Smart_File_Organizer_Pro/
+│── main.py
+│── organizer.py
+│── logger.py
+│── config_loader.py
+│── duplicate_handler.py
+│── backup_manager.py
+│── csv_report.py
+│── config.json
+│── README.md
+
+Technologies Used
+
+- Python 3
+- pathlib
+- shutil
+- json
+- csv
+- logging
+
+Software Engineering Concepts
+
+- Object-Oriented Programming (OOP)
+- Composition
+- Single Responsibility Principle (SRP)
+- Modular Design
+- Exception Handling
+- Clean Code Practices
+
+How to Run
+
+1. Clone this repository.
+2. Update "config.json" with your source folder and categories.
+3. Run:
+
+python main.py
+
+Learning Objectives
+
+This project was developed to strengthen Python automation, software engineering principles, modular programming, and clean project architecture.
+
+License
+
+MIT License
