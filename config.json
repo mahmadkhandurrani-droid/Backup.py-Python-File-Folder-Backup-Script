@@ -1,0 +1,5 @@
+{
+    "source_folder": "source",
+    "destination": "backup",
+    "log_file": "logs/backup.log"
+}
