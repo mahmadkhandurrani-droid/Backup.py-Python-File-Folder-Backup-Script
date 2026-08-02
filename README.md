@@ -78,10 +78,13 @@ Run the application:
 
 python main.py
 
-Run tests:
+# Run tests:
 
 pytest
-
+# Output 
+================ test session starts ================
+3 passed
+================
 # Engineering Concepts Used
 
 - Modular programming
